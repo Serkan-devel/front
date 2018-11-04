@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM arm32v6/alpine:edge
 
 RUN apk add --no-cache \
     chromium \
